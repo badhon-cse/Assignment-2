@@ -30,6 +30,14 @@
 .font-primary {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.primary-btn {
+  background-color: #e95a08;
+  font-weight: 600;
+  color: white;
+  padding: 18px 30px;
+}
+
 /* Navbar Styles */
 
 .menu-item2,
