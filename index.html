@@ -16,22 +16,58 @@
   </head>
   <body class="inter-font">
     <header>
-      <nav class="navbar container flex justify-between items-center">
-        <img src="./assets/logo.png" alt="" class="logo-img" />
+      <div class="container">
+        <nav
+          class="navbar flex justify-between items-center mx-4 mb-7 mt-3 sm:mb-[120px] sm:mt-7"
+        >
+          <img src="./assets/logo.png" alt="" class="w-16 sm:w-[135px]" />
 
-        <ul class="menu-items flex gap-12">
-          <li class="menu-item1 font-bold">
-            <a href="" class="menu-link">Home</a>
-          </li>
-          <li class="menu-item2"><a href="" class="menu-link">Shop</a></li>
-          <li class="menu-item3"><a href="" class="menu-link">About us</a></li>
-          <li class="menu-item4">
-            <a href="" class="menu-link"
-              ><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a
+          <ul class="menu-items flex gap-12">
+            <li class="menu-item1 font-bold hidden sm:block">
+              <a href="" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item2 hidden sm:block">
+              <a href="" class="menu-link">Shop</a>
+            </li>
+            <li class="menu-item3 hidden sm:block">
+              <a href="" class="menu-link">About us</a>
+            </li>
+            <li class="menu-item4">
+              <a href="" class="menu-link"
+                ><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="banner flex flex-col-reverse container sm:flex-row">
+        <div class="banner-content flex items-end mx-4">
+          <div>
+            <h1
+              class="banner-title text-2xl font-bold noto-serif-font mb-3 sm:text-6xl"
             >
-          </li>
-        </ul>
-      </nav>
+              ALWAYS
+              <span class="orange-title"
+                >FRESH <br />
+                FLOWERS</span
+              >
+            </h1>
+
+            <p class="banner-description font-primary text-sm sm:text-[22px]">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh flowers that are perfect for any occasion.
+            </p>
+          </div>
+        </div>
+
+        <img
+          src="./assets/hero-flower.png"
+          alt=""
+          class="banner-image mb-7 sm:mb-0"
+        />
+      </section>
     </header>
   </body>
 </html>
